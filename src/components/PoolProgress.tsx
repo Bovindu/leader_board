@@ -6,7 +6,7 @@ const PoolProgress: React.FC = () => {
   const totalHours = leaderboardData.reduce((sum, contestant) => sum + contestant.hours, 0);
   const totalPrizeAwarded = totalHours * PRICE_CONFIG.PRICE_PER_HOUR;
   const remainingPool = PRICE_CONFIG.POOL_PRICE - totalPrizeAwarded;
-  const progressPercentage = (totalPrizeAwarded / PRICE_CONFIG.POOL_PRICE) * 100;
+  const progressPercentage = 100-(totalPrizeAwarded / PRICE_CONFIG.POOL_PRICE) * 100;
 
   return (
     <div className="w-full max-w-6xl mx-auto px-4 mb-8 animate-fade-in">
