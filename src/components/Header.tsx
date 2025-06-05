@@ -26,6 +26,10 @@ const Header: React.FC = () => {
             <span className="ml-2 font-bold text-white">Rs. {PRICE_CONFIG.POOL_PRICE.toLocaleString()}</span>
           </div>
           <div className="bg-white/10 backdrop-blur-sm rounded-lg px-4 py-2">
+            <span className="text-blue-100">Total Pool Price:</span>
+            <span className="ml-2 font-bold text-white">Rs. {PRICE_CONFIG.POOL_PRICE.toLocaleString()}</span>
+          </div>
+          <div className="bg-white/10 backdrop-blur-sm rounded-lg px-4 py-2">
             <span className="text-blue-100">Price per Hour:</span>
             <span className="ml-2 font-bold text-white">Rs. {PRICE_CONFIG.PRICE_PER_HOUR.toLocaleString()}</span>
           </div>
