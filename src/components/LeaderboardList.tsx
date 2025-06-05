@@ -52,7 +52,7 @@ const LeaderboardList: React.FC<LeaderboardListProps> = ({ contestants }) => {
                   </div>
                 </td>
                 <td className="py-4 px-6 text-right">
-                  <div className="flex items-center">
+                  <div className="flex items-center justify-end">
                     <Award className="text-blue-500 mr-1" size={18} />
                     <span className="font-bold text-blue-600">{contestant.hours}*100</span>
                     <span className="ml-1 text-gray-500 text-sm">hours</span>
