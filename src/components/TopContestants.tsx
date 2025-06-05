@@ -66,7 +66,7 @@ const TopContestants: React.FC<TopContestantsProps> = ({ contestants }) => {
               <h3 className={`font-bold text-center mt-2 ${isFirst ? "text-xl" : "text-lg"}`}>{contestant.name}</h3>
               
               <div className="flex items-center mt-2">
-                <span className={`${isFirst ? "text-3xl" : "text-2xl"} font-bold text-blue-600`}>Rs. {contestant.hours*contestant.price_per_hour}</span>
+                <span className={`${isFirst ? "text-3xl" : "text-2xl"} font-bold text-blue-600`}>Rs. {contestant.hours*100}</span>
               </div>
               <div className="flex items-center mt-2">
                 <span className={`${isFirst ? "text-3xl" : "text-2xl"} font-bold text-blue-600`}>{contestant.hours}</span>
