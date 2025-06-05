@@ -1,6 +1,6 @@
 import React from 'react';
 import { Contestant } from '../types';
-import { Award } from 'lucide-react';
+import { Award, DollarSign } from 'lucide-react';
 
 interface LeaderboardListProps {
   contestants: Contestant[];
