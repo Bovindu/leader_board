@@ -1,16 +1,15 @@
 import React from 'react';
 import { Contestant } from '../types';
 import { Trophy } from 'lucide-react';
+import { PRICE_CONFIG } from '../config/constants';
 
 interface TopContestantsProps {
   contestants: Contestant[];
 }
 
 const TopContestants: React.FC<TopContestantsProps> = ({ contestants }) => {
-  // Make sure we have exactly 3 contestants for the top positions
   const topThree = contestants.slice(0, 3);
   
-  // We want the 2nd place, 1st place, 3rd place order for better visual balance
   const orderedContestants = [
     topThree[1], // 2nd place
     topThree[0], // 1st place
@@ -35,12 +34,17 @@ const TopContestants: React.FC<TopContestantsProps> = ({ contestants }) => {
     return `${baseClass} animate-delay-${index + 1}`;
   };
 
+  const calculatePrize = (hours: number) => {
+    return hours * PRICE_CONFIG.PRICE_PER_HOUR;
+  };
+
   return (
     <div className="flex flex-col items-center w-full mb-10">
       <h2 className="text-2xl font-bold text-gray-800 mb-6 animate-fade-in">Top Learners</h2>
       <div className="flex flex-col md:flex-row justify-center items-end gap-4 w-full">
         {orderedContestants.map((contestant, index) => {
           const isFirst = contestant.rank === 1;
+          const prize = calculatePrize(contestant.hours);
           
           return (
             <div 
@@ -71,7 +75,7 @@ const TopContestants: React.FC<TopContestantsProps> = ({ contestants }) => {
               <h3 className={`font-bold text-center mt-2 ${isFirst ? "text-xl" : "text-lg"}`}>{contestant.name}</h3>
               
               <div className="flex items-center mt-2">
-                <span className={`${isFirst ? "text-3xl" : "text-2xl"} font-bold text-blue-600`}>Rs. {contestant.hours * 100}</span>
+                <span className={`${isFirst ? "text-3xl" : "text-2xl"} font-bold text-blue-600`}>Rs. {prize.toLocaleString()}</span>
               </div>
               <div className="flex items-center mt-2">
                 <span className={`${isFirst ? "text-3xl" : "text-2xl"} font-bold text-blue-600`}>{contestant.hours}</span>

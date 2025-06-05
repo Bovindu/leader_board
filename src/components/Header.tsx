@@ -1,5 +1,6 @@
 import React from 'react';
 import { GraduationCap } from 'lucide-react';
+import { PRICE_CONFIG } from '../config/constants';
 
 const Header: React.FC = () => {
   return (
@@ -22,11 +23,11 @@ const Header: React.FC = () => {
         <div className="mt-4 flex flex-col md:flex-row gap-4 md:gap-8">
           <div className="bg-white/10 backdrop-blur-sm rounded-lg px-4 py-2">
             <span className="text-blue-100">Total Pool Price:</span>
-            <span className="ml-2 font-bold text-white">Rs. 30,000</span>
+            <span className="ml-2 font-bold text-white">Rs. {PRICE_CONFIG.POOL_PRICE.toLocaleString()}</span>
           </div>
           <div className="bg-white/10 backdrop-blur-sm rounded-lg px-4 py-2">
             <span className="text-blue-100">Price per Hour:</span>
-            <span className="ml-2 font-bold text-white">Rs. 100</span>
+            <span className="ml-2 font-bold text-white">Rs. {PRICE_CONFIG.PRICE_PER_HOUR.toLocaleString()}</span>
           </div>
         </div>
       </div>

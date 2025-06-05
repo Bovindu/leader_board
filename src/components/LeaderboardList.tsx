@@ -1,6 +1,7 @@
 import React from 'react';
 import { Contestant } from '../types';
 import { Award, DollarSign } from 'lucide-react';
+import { PRICE_CONFIG } from '../config/constants';
 
 interface LeaderboardListProps {
   contestants: Contestant[];
@@ -16,7 +17,7 @@ const LeaderboardList: React.FC<LeaderboardListProps> = ({ contestants }) => {
               <th className="py-3 px-6 text-left">Rank</th>
               <th className="py-3 px-6 text-left">Learner</th>
               <th className="py-3 px-6 text-left">Learning Hours</th>
-              <th className="py-3 px-6 text-right">Winning Price</th>
+              <th className="py-3 px-6 text-right">Prize Money</th>
             </tr>
           </thead>
           <tbody className="text-gray-600 divide-y divide-gray-200">
@@ -44,7 +45,7 @@ const LeaderboardList: React.FC<LeaderboardListProps> = ({ contestants }) => {
                     <span className="font-medium">{contestant.name}</span>
                   </div>
                 </td>
-                <td className="py-4 px-6 text-right">
+                <td className="py-4 px-6">
                   <div className="flex items-center">
                     <Award className="text-blue-500 mr-1" size={18} />
                     <span className="font-bold text-blue-600">{contestant.hours}</span>
@@ -53,7 +54,8 @@ const LeaderboardList: React.FC<LeaderboardListProps> = ({ contestants }) => {
                 </td>
                 <td className="py-4 px-6 text-right">
                   <div className="flex items-center justify-end">
-                    <span className="font-bold text-blue-600"> Rs.{contestant.hours * 100}</span>
+                    <DollarSign className="text-blue-500 mr-1" size={18} />
+                    <span className="font-bold text-blue-600">Rs. {(contestant.hours * PRICE_CONFIG.PRICE_PER_HOUR).toLocaleString()}</span>
                   </div>
                 </td>
               </tr>
