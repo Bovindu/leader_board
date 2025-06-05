@@ -27,7 +27,7 @@ const Header: React.FC = () => {
           </div>
           <div className="bg-white/10 backdrop-blur-sm rounded-lg px-4 py-2">
             <span className="text-blue-100">Total Pool Price:</span>
-            <span className="ml-2 font-bold text-white">Rs. {PRICE_CONFIG.POOL_PRICE.toLocaleString()}</span>
+            <span className="ml-2 font-bold text-white">Rs. {PRICE_CONFIG.REMAIN_AMOUNT.toLocaleString()}</span>
           </div>
           <div className="bg-white/10 backdrop-blur-sm rounded-lg px-4 py-2">
             <span className="text-blue-100">Price per Hour:</span>
