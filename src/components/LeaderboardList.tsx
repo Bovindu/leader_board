@@ -15,7 +15,8 @@ const LeaderboardList: React.FC<LeaderboardListProps> = ({ contestants }) => {
             <tr className="bg-gray-100 text-gray-600 uppercase text-sm leading-normal">
               <th className="py-3 px-6 text-left">Rank</th>
               <th className="py-3 px-6 text-left">Learner</th>
-              <th className="py-3 px-6 text-right">Learning Hours</th>
+              <th className="py-3 px-6 text-left">Learning Hours</th>
+              <th className="py-3 px-6 text-right">Winning Price</th>
             </tr>
           </thead>
           <tbody className="text-gray-600 divide-y divide-gray-200">
