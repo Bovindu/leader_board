@@ -5,7 +5,7 @@ export const leaderboardData: Contestant[] = [
   {
     pool_price: 30000,
     
-  }
+  },
   {
     id: 1,
     name: "A K M Fowzin",
