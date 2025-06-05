@@ -17,7 +17,7 @@ const Header: React.FC = () => {
           </div>
         </div>
         <p className="mt-2 text-blue-100 text-sm md:text-base max-w-2xl">
-          Track the top learners and their impressive learning hours. Updated daily by administrators.
+          Track the top learners and their impressive learning hours. Updated daily by administration.
         </p>
         <div className="mt-4 flex flex-col md:flex-row gap-4 md:gap-8">
           <div className="bg-white/10 backdrop-blur-sm rounded-lg px-4 py-2">
