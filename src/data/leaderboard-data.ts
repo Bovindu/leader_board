@@ -6,7 +6,7 @@ export const leaderboardData: Contestant[] = [
     id: 1,
     name: "A K M Fowzin",
     hours: 27,
-    profilePic: "src/img",
+    profilePic: "src/img/kobe.png",
     rank: 1
   },
   {
