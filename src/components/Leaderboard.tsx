@@ -14,8 +14,8 @@ const Leaderboard: React.FC<LeaderboardProps> = ({ data }) => {
 
   return (
     <div className="w-full max-w-6xl mx-auto p-4 md:p-6">
-      <TopContestants contestants={topContestants} />
       <PoolProgress />
+      <TopContestants contestants={topContestants} />
       
       <div className="mb-6">
         <h2 className="text-xl font-bold text-gray-800 mb-4">Leaderboard Rankings</h2>
