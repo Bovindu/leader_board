@@ -13,7 +13,7 @@ const Header: React.FC = () => {
           </div>
           <div className="flex items-center">
             <p className="text-sm md:text-base text-blue-100">
-              Last updated: <span className="font-semibold">{new Date().toLocaleDateString()}</span>
+              Last updated: <span className="font-semibold">06/06/2025</span>
             </p>
           </div>
         </div>
