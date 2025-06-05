@@ -4,4 +4,5 @@ export interface Contestant {
   hours: number;
   profilePic: string;
   rank: number;
+  pool_price: number;
 }
