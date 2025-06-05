@@ -54,7 +54,6 @@ const LeaderboardList: React.FC<LeaderboardListProps> = ({ contestants }) => {
                 </td>
                 <td className="py-4 px-6 text-right">
                   <div className="flex items-center justify-end">
-                    <DollarSign className="text-blue-500 mr-1" size={18} />
                     <span className="font-bold text-blue-600">Rs. {(contestant.hours * PRICE_CONFIG.PRICE_PER_HOUR).toLocaleString()}</span>
                   </div>
                 </td>
