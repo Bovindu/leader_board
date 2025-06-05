@@ -19,6 +19,16 @@ const Header: React.FC = () => {
         <p className="mt-2 text-blue-100 text-sm md:text-base max-w-2xl">
           Track the top learners and their impressive learning hours. Updated daily by administrators.
         </p>
+        <div className="mt-4 flex flex-col md:flex-row gap-4 md:gap-8">
+          <div className="bg-white/10 backdrop-blur-sm rounded-lg px-4 py-2">
+            <span className="text-blue-100">Total Pool Price:</span>
+            <span className="ml-2 font-bold text-white">Rs. 10,000</span>
+          </div>
+          <div className="bg-white/10 backdrop-blur-sm rounded-lg px-4 py-2">
+            <span className="text-blue-100">Price per Hour:</span>
+            <span className="ml-2 font-bold text-white">Rs. 100</span>
+          </div>
+        </div>
       </div>
     </header>
   );

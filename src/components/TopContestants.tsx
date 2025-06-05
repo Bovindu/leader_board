@@ -30,11 +30,16 @@ const TopContestants: React.FC<TopContestantsProps> = ({ contestants }) => {
     }
   };
 
+  const getAnimationClass = (index: number) => {
+    const baseClass = "animate-bounce-in";
+    return `${baseClass} animate-delay-${index + 1}`;
+  };
+
   return (
     <div className="flex flex-col items-center w-full mb-10">
-      <h2 className="text-2xl font-bold text-gray-800 mb-6">Top Learners</h2>
+      <h2 className="text-2xl font-bold text-gray-800 mb-6 animate-fade-in">Top Learners</h2>
       <div className="flex flex-col md:flex-row justify-center items-end gap-4 w-full">
-        {orderedContestants.map((contestant) => {
+        {orderedContestants.map((contestant, index) => {
           const isFirst = contestant.rank === 1;
           
           return (
@@ -44,9 +49,9 @@ const TopContestants: React.FC<TopContestantsProps> = ({ contestants }) => {
                 isFirst 
                 ? "bg-blue-100 md:h-80 w-full md:w-64 z-10 border-t-4 border-blue-500 hover:-translate-y-2" 
                 : "bg-white md:h-72 w-full md:w-56 hover:-translate-y-1"
-              }`}
+              } ${getAnimationClass(index)}`}
             >
-              <div className="absolute -top-3 left-1/2 transform -translate-x-1/2 bg-white rounded-full p-2 shadow-md">
+              <div className="absolute -top-3 left-1/2 transform -translate-x-1/2 bg-white rounded-full p-2 shadow-md animate-scale-in">
                 <Trophy className={`${trophyColors[contestant.rank as keyof typeof trophyColors]}`} size={getTrophySize(contestant.rank)} />
               </div>
               
@@ -66,7 +71,7 @@ const TopContestants: React.FC<TopContestantsProps> = ({ contestants }) => {
               <h3 className={`font-bold text-center mt-2 ${isFirst ? "text-xl" : "text-lg"}`}>{contestant.name}</h3>
               
               <div className="flex items-center mt-2">
-                <span className={`${isFirst ? "text-3xl" : "text-2xl"} font-bold text-blue-600`}>Rs. {contestant.hours*100}</span>
+                <span className={`${isFirst ? "text-3xl" : "text-2xl"} font-bold text-blue-600`}>Rs. {contestant.hours * 100}</span>
               </div>
               <div className="flex items-center mt-2">
                 <span className={`${isFirst ? "text-3xl" : "text-2xl"} font-bold text-blue-600`}>{contestant.hours}</span>
@@ -76,7 +81,7 @@ const TopContestants: React.FC<TopContestantsProps> = ({ contestants }) => {
               <div className={`absolute top-4 right-4 ${
                 contestant.rank === 1 ? "bg-yellow-400" : 
                 contestant.rank === 2 ? "bg-gray-400" : "bg-amber-700"
-              } text-white rounded-full h-8 w-8 flex items-center justify-center font-bold`}>
+              } text-white rounded-full h-8 w-8 flex items-center justify-center font-bold animate-scale-in`}>
                 {contestant.rank}
               </div>
             </div>
