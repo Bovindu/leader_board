@@ -5,4 +5,5 @@ export interface Contestant {
   profilePic: string;
   rank: number;
   pool_price: number;
+  price_per_hour: number;
 }
