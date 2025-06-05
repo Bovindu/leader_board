@@ -12,7 +12,7 @@ export const leaderboardData: Contestant[] = [
   {
     id: 2,
     name: "A R Withana",
-    hours: 24,
+    hours: 20,
     profilePic: "https://images.pexels.com/photos/614810/pexels-photo-614810.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
     rank: 2
   },
