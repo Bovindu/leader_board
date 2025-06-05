@@ -69,6 +69,10 @@ const TopContestants: React.FC<TopContestantsProps> = ({ contestants }) => {
                 <span className={`${isFirst ? "text-3xl" : "text-2xl"} font-bold text-blue-600`}>{contestant.hours}</span>
                 <span className="ml-1 text-gray-600">hours</span>
               </div>
+              <div className="flex items-center mt-2">
+                <span className={`${isFirst ? "text-3xl" : "text-2xl"} font-bold text-blue-600`}>{contestant.hours}</span>
+                <span className="ml-1 text-gray-600">hours</span>
+              </div>
               
               <div className={`absolute top-4 right-4 ${
                 contestant.rank === 1 ? "bg-yellow-400" : 
