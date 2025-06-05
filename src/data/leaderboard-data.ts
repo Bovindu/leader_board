@@ -6,7 +6,7 @@ export const leaderboardData: Contestant[] = [
     id: 1,
     name: "A K M Fowzin",
     hours: 27,
-    profilePic: "https://images.pexels.com/photos/733872/pexels-photo-733872.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    profilePic: "src/img",
     rank: 1
   },
   {
