@@ -6,8 +6,7 @@ export const leaderboardData: Contestant[] = [
     id: 1,
     name: "A K M Fowzin",
     hours: 27,
-    profilePic: require("src/img/kobe.png"),
-      
+    profilePic: "https://drive.google.com/uc?export=view&id=1EFtZFkp9TSnvzDbBhaa5xkruzW3j5aoN",
     rank: 1
   },
   {
