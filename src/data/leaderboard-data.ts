@@ -1,4 +1,5 @@
 import { Contestant } from '../types';
+import fowzinImage from '../assets/kobe.png';
 
 // Mock data for the leaderboard
 export const leaderboardData: Contestant[] = [
@@ -6,7 +7,7 @@ export const leaderboardData: Contestant[] = [
     id: 1,
     name: "A K M Fowzin",
     hours: 27,
-    profilePic: require("../assets/kobe.png"),
+    profilePic: fowzinImage,
     rank: 1
   },
   {
