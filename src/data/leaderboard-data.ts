@@ -4,18 +4,18 @@ import fowzinImage from '../img/kobe.png';
 // Mock data for the leaderboard
 export const leaderboardData: Contestant[] = [
   {
-    id: 2,
+    id: 1,
     name: "A K M Fowzin",
     hours: 27,
     profilePic: fowzinImage,
-    rank: 2
+    rank: 1
   },
   {
-    id: 1,
+    id: 2,
     name: "A R Withana",
     hours: 20,
     profilePic: "https://images.pexels.com/photos/614810/pexels-photo-614810.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-    rank: 1
+    rank: 2
   },
   {
     id: 3,
