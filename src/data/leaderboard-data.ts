@@ -1,5 +1,6 @@
 import { Contestant } from '../types';
 import fowzinImage from '../img/kobe.png';
+import WithanaImage from '../img/ad.jpeg';
 
 // Mock data for the leaderboard
 export const leaderboardData: Contestant[] = [
@@ -14,7 +15,7 @@ export const leaderboardData: Contestant[] = [
     id: 2,
     name: "A R Withana",
     hours: 20,
-    profilePic: "https://images.pexels.com/photos/614810/pexels-photo-614810.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    profilePic: "WithanaImage",
     rank: 2
   },
   {
