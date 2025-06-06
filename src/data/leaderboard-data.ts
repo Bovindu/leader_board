@@ -1,5 +1,5 @@
 import { Contestant } from '../types';
-import fowzinImage from '../assets/kobe.png';
+import fowzinImage from '../img/kobe.png';
 
 // Mock data for the leaderboard
 export const leaderboardData: Contestant[] = [
