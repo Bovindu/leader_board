@@ -14,9 +14,12 @@ const Header: React.FC = () => {
             <GraduationCap size={32} className="mr-2" />
             <h1 className="text-2xl md:text-3xl font-bold">Coursera Leaderboard PGP Glass Ceylon PLC</h1>
           </div>
-          <div className="flex items-center">
-            <p className="text-sm md:text-base text-blue-100">
+          <div className="flex flex-col items-center md:items-end">
+            <p className="text-sm md:text-base text-blue-100 mb-1">
               Last updated: <span className="font-semibold">06/06/2025</span>
+            </p>
+            <p className="text-sm md:text-base text-blue-100">
+              Total Learning Hours: <span className="font-semibold">{totalHours}</span>
             </p>
           </div>
         </div>
@@ -28,13 +31,10 @@ const Header: React.FC = () => {
             <span className="text-blue-100">Total Pool Prize:</span>
             <span className="ml-2 font-bold text-white">Rs. {PRICE_CONFIG.POOL_PRICE.toLocaleString()}</span>
           </div>
+          
           <div className="bg-white/10 backdrop-blur-sm rounded-lg px-4 py-2">
             <span className="text-blue-100">Prize per Hour:</span>
             <span className="ml-2 font-bold text-white">Rs. {PRICE_CONFIG.PRICE_PER_HOUR.toLocaleString()}</span>
-          </div>
-          <div className="bg-white/10 backdrop-blur-sm rounded-lg px-4 py-2">
-            <span className="text-blue-100">Total Learning Hours:</span>
-            <span className="ml-2 font-bold text-white">{totalHours}</span>
           </div>
         </div>
       </div>
