@@ -11,8 +11,8 @@ const Footer: React.FC = () => {
             </p>
           </div>
           <div className="flex space-x-4">
-            <a href="#" className="text-gray-300 hover:text-white transition-colors duration-200 text-sm">
-              Terms of Service
+            <a href="/admin" className="text-gray-300 hover:text-white transition-colors duration-200 text-sm">
+              Log in
             </a>
             <a href="#" className="text-gray-300 hover:text-white transition-colors duration-200 text-sm">
               Privacy Policy
