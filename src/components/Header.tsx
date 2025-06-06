@@ -1,8 +1,11 @@
 import React from 'react';
 import { GraduationCap } from 'lucide-react';
 import { PRICE_CONFIG } from '../config/constants';
+import { leaderboardData } from '../data/leaderboard-data';
 
 const Header: React.FC = () => {
+  const totalHours = leaderboardData.reduce((sum, contestant) => sum + contestant.hours, 0);
+
   return (
     <header className="bg-gradient-to-r from-blue-700 to-blue-900 text-white py-6 md:py-8">
       <div className="container mx-auto px-4">
@@ -25,10 +28,13 @@ const Header: React.FC = () => {
             <span className="text-blue-100">Total Pool Prize:</span>
             <span className="ml-2 font-bold text-white">Rs. {PRICE_CONFIG.POOL_PRICE.toLocaleString()}</span>
           </div>
-          
           <div className="bg-white/10 backdrop-blur-sm rounded-lg px-4 py-2">
             <span className="text-blue-100">Prize per Hour:</span>
             <span className="ml-2 font-bold text-white">Rs. {PRICE_CONFIG.PRICE_PER_HOUR.toLocaleString()}</span>
+          </div>
+          <div className="bg-white/10 backdrop-blur-sm rounded-lg px-4 py-2">
+            <span className="text-blue-100">Total Learning Hours:</span>
+            <span className="ml-2 font-bold text-white">{totalHours}</span>
           </div>
         </div>
       </div>
