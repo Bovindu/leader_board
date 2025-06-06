@@ -1,6 +1,6 @@
 import { Contestant } from '../types';
 import fowzinImage from '../img/kobe.png';
-import WithanaImage from '../img/ad.jpeg';
+import WithanaImage from '../img/ad.jpg';
 
 // Mock data for the leaderboard
 export const leaderboardData: Contestant[] = [
