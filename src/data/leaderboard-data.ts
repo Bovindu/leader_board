@@ -3,7 +3,7 @@ import fowzinImage from '../img/kobe.png';
 import WithanaImage from '../img/ad.jpg';
 
 export const leaderboardData = [
-  { rank: 1, name: "Bovindu Amarakoon", hours: 30, profilePic: "https://ibb.co/1YbSrCB8" },
+  { rank: 1, name: "Bovindu Amarakoon", hours: 31, profilePic: "https://res.cloudinary.com/dlcm7h3zb/image/upload/v1749315471/asd_sggs72.jpg" },
   { rank: 2, name: "A K M Fowzin", hours: 28, profilePic: fowzinImage },
   { rank: 3, name: "A R Withana", hours: 20, profilePic: WithanaImage },
   { rank: 4, name: "D S I Manamperi", hours: 16, profilePic: "https://images.pexels.com/photos/774909/pexels-photo-774909.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" },
