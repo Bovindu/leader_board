@@ -19,7 +19,7 @@ const Header: React.FC = () => {
               Last updated: <span className="font-semibold">06/06/2025</span>
             </p>
             <p className="text-sm md:text-base text-blue-100">
-              Total Learning Hours: <span className="font-semibold">{totalHours}</span>
+              Total Learning Hours: <span className="font-semibold">{PRICE_CONFIG.TOTAL_HOURS+totalHours}</span>
             </p>
           </div>
         </div>
