@@ -16,7 +16,7 @@ const Header: React.FC = () => {
           </div>
           <div className="flex flex-col items-center md:items-end">
             <p className="text-sm md:text-base text-blue-100 mb-1">
-              Last updated: <span className="font-semibold">06/06/2025</span>
+              Last updated: <span className="font-semibold">{PRICE_CONFIG.LATEST_UPDATE}</span>
             </p>
             <p className="text-sm md:text-base text-blue-100">
               Total Learning Hours: <span className="font-semibold">{PRICE_CONFIG.TOTAL_HOURS+totalHours}</span>

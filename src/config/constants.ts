@@ -1,5 +1,6 @@
 export const PRICE_CONFIG = {
   POOL_PRICE: 30000,
   PRICE_PER_HOUR: 100,
-  TOTAL_HOURS: 10
+  TOTAL_HOURS: 10,
+  LATEST_UPDATE: "07/06/2025"
 } as const; 
