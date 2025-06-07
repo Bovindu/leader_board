@@ -2,6 +2,7 @@ import React from 'react';
 import { GraduationCap } from 'lucide-react';
 import { PRICE_CONFIG } from '../config/constants';
 import { leaderboardData } from '../data/leaderboard-data';
+import { DATE_CONFIG } from '../config/date_up';
 
 const Header: React.FC = () => {
   const totalHours = leaderboardData.reduce((sum, contestant) => sum + contestant.hours, 0);
@@ -16,7 +17,7 @@ const Header: React.FC = () => {
           </div>
           <div className="flex flex-col items-center md:items-end">
             <p className="text-sm md:text-base text-blue-100 mb-1">
-              Last updated: <span className="font-semibold">{PRICE_CONFIG.LATEST_UPDATE.toLocaleString()}</span>
+              Last updated: <span className="font-semibold">{DATE_CONFIG.LATEST_UPDATE.toLocaleString()}</span>
             </p>
             <p className="text-sm md:text-base text-blue-100">
               Total Learning Hours: <span className="font-semibold">{PRICE_CONFIG.TOTAL_HOURS+totalHours}</span>
