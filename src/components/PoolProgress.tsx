@@ -15,8 +15,9 @@ const PoolProgress: React.FC = () => {
         <div className="flex justify-between mb-2">
           <span className="text-gray-700 font-semibold">Pool Prize Distribution</span>
           <span className="text-gray-600">
-            Remaining: <span className={`font-bold ${remainingPool === 0 ? 'text-red-600' : 'text-blue-600'}`}>
-              Rs. {remainingPool.toLocaleString()}
+            Total Pool: <span className="font-semibold">Rs. {PRICE_CONFIG.POOL_PRICE.toLocaleString()}</span>
+            
+              
             </span>
           </span>
         </div>
@@ -46,7 +47,8 @@ const PoolProgress: React.FC = () => {
             )}
           </span>
           <span className="text-gray-600">
-            Total Pool: <span className="font-semibold">Rs. {PRICE_CONFIG.POOL_PRICE.toLocaleString()}</span>
+          Remaining: <span className={`font-bold ${remainingPool === 0 ? 'text-red-600' : 'text-blue-600'}`}></span>
+          Rs. {remainingPool.toLocaleString()}  
           </span>
         </div>
       </div>
