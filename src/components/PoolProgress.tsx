@@ -7,7 +7,7 @@ const PoolProgress: React.FC = () => {
   const totalPrizeAwarded = totalHours * PRICE_CONFIG.PRICE_PER_HOUR;
   const remainingPool = Math.max(0, PRICE_CONFIG.POOL_PRICE - totalPrizeAwarded); // Ensure it doesn't go below 0
   const progressPercentage = Math.min(100, (totalPrizeAwarded / PRICE_CONFIG.POOL_PRICE) * 100); // Cap at 100%
-  const remainingPercentage = Math.max(0, 100 - progressPercentage); // Remaining percentage
+  const remainingPercentage = Math.max(0, progressPercentage); // Remaining percentage
 
   return (
     <div className="w-full max-w-6xl mx-auto px-4 mb-8 animate-fade-in">
