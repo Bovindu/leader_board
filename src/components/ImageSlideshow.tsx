@@ -1,12 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { ChevronLeft, ChevronRight, Pause, Play } from 'lucide-react';
 
-interface SlideshowImage {
-  id: number;
-  url: string;
-  title: string;
-  description: string;
-}
 
 // Sample images - can be easily modified
 const slideshowImages: SlideshowImage[] = [
