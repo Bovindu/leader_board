@@ -16,12 +16,9 @@ const PoolProgress: React.FC = () => {
           <span className="text-gray-700 font-semibold">Pool Prize Distribution</span>
           <span className="text-gray-600">
             Total Pool: <span className="font-semibold">Rs. {PRICE_CONFIG.POOL_PRICE.toLocaleString()}</span>
-            
-              
-            </span>
           </span>
         </div>
-        
+
         <div className="relative h-4 bg-gray-200 rounded-full overflow-hidden">
           <div 
             className={`absolute left-0 top-0 h-full transition-all duration-1000 ease-out ${
@@ -36,7 +33,7 @@ const PoolProgress: React.FC = () => {
             />
           )}
         </div>
-        
+
         <div className="flex justify-between mt-2 text-sm">
           <span className="text-gray-600">
             Awarded: <span className={`font-semibold ${progressPercentage >= 100 ? 'text-red-600' : 'text-blue-600'}`}>
@@ -47,8 +44,9 @@ const PoolProgress: React.FC = () => {
             )}
           </span>
           <span className="text-gray-600">
-          Remaining: <span className={`font-bold ${remainingPool === 0 ? 'text-red-600' : 'text-blue-600'}`}></span>
-          Rs. {remainingPool.toLocaleString()}  
+            Remaining: <span className={`font-bold ${remainingPool === 0 ? 'text-red-600' : 'text-blue-600'}`}>
+              Rs. {remainingPool.toLocaleString()}
+            </span>
           </span>
         </div>
       </div>
