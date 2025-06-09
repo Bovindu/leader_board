@@ -33,7 +33,13 @@ const slideshowImages: SlideshowImage[] = [
     url: "https://images.pexels.com/photos/3184418/pexels-photo-3184418.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
     title: "Achievement Recognition",
     description: "Celebrating milestones and learning achievements"
-  }
+  },
+  {
+    id: 6,
+    url: "https://res.cloudinary.com/dlcm7h3zb/image/upload/v1749315289/cld-sample-4.jpg",
+    title: "Food",
+    description: "Food"
+  },
 ];
 
 const ImageSlideshow: React.FC = () => {
@@ -105,7 +111,7 @@ const ImageSlideshow: React.FC = () => {
       <div className="container mx-auto px-4">
         <div className="max-w-6xl mx-auto">
           <h2 className="text-3xl font-bold text-gray-800 text-center mb-8">
-            Learning Journey Highlights
+            News And Event Updates
           </h2>
           
           <div className="relative bg-white rounded-lg shadow-lg overflow-hidden group">
