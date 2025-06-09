@@ -10,7 +10,6 @@ export const leaderboardData = [
   { rank: 5, name: "Krishantha Gunasekara", hours: 28, money: 2800, profilePic: "https://res.cloudinary.com/drn4ip7ht/image/upload/v1749462276/gunasekara_a1iuoq.jpg" },
   { rank: 6, name: "H H T Hewaarachchi", hours: 26, money: 2600, profilePic: "https://res.cloudinary.com/drn4ip7ht/image/upload/v1749462276/heewaracchchi_o04kfk.jpg" },
   { rank: 7, name: "K A Mahinda", hours: 22, money: 2200, profilePic: "https://res.cloudinary.com/drn4ip7ht/image/upload/v1749462276/mahinda_d8d8rb.jpg" },
-  { rank: 8, name: "Chandani Ediriweera", hours: 12, money: 1200, profilePic: "" },
-  { rank: 9, name: "Muskaan Raghuvanshi", hours: 10, money: 1000, profilePic: "" },
-  { rank: 10, name: "Ariya Wimalsiri", hours: 8, money: 800, profilePic: "" },
+  { rank: 8, name: "Chandani Ediriweera", hours: 12, money: 1200, profilePic: "https://res.cloudinary.com/drn4ip7ht/image/upload/v1749462901/chandani_vezdt4.jpg" },
+  { rank: 9, name: "Ariya Wimalsiri", hours: 8, money: 800, profilePic: "https://res.cloudinary.com/drn4ip7ht/image/upload/v1749462962/wimalasiri_vw81yi.jpg" },
 ];
