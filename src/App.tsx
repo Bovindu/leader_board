@@ -4,6 +4,7 @@ import Header from './components/Header';
 import Leaderboard from './components/Leaderboard';
 import AdminPage from './components/AdminPage';
 import Footer from './components/Footer';
+import ImageSlideshow from './components/ImageSlideshow';
 import { leaderboardData } from './data/leaderboard-data';
 
 function App() {
@@ -20,6 +21,7 @@ function App() {
                   <Leaderboard data={leaderboardData} />
                 </div>
               </main>
+              <ImageSlideshow />
               <Footer />
             </>
           } />
