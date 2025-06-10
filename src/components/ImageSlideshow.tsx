@@ -30,7 +30,7 @@ const slideshowImages: SlideshowImage[] = [
   },
   {
     id: 5,
-    url: "https://images.pexels.com/photos/3184418/pexels-photo-3184418.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    url: "https://res.cloudinary.com/dlcm7h3zb/image/upload/v1749315289/cld-sample-4.jpg",
     title: "Achievement Recognition",
     description: "Celebrating milestones and learning achievements"
   },
