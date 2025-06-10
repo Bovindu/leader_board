@@ -28,18 +28,6 @@ const slideshowImages: SlideshowImage[] = [
     title: "Innovation & Technology",
     description: "Staying ahead with cutting-edge skills and knowledge"
   },
-  {
-    id: 5,
-    url: "https://res.cloudinary.com/dlcm7h3zb/image/upload/v1749315289/cld-sample-4.jpg",
-    title: "Achievement Recognition",
-    description: "Celebrating milestones and learning achievements"
-  },
-  {
-    id: 6,
-    url: "https://res.cloudinary.com/dlcm7h3zb/image/upload/v1749315289/cld-sample-4.jpg",
-    title: "Food",
-    description: "Food"
-  },
 ];
 
 const ImageSlideshow: React.FC = () => {
