@@ -3,12 +3,13 @@ import fowzinImage from '../img/kobe.png';
 import WithanaImage from '../img/ad.jpg';
 
 export const leaderboardData = [
-  { rank: 1, name: "D S I Manamperi", hours: 76, money: 1600, profilePic: "https://images.pexels.com/photos/774909/pexels-photo-774909.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" },
-  { rank: 2, name: "A K M Fowzin", hours: 38, money: 3800, profilePic: fowzinImage },
-  { rank: 3, name: "G Wasantha", hours: 31, money: 3100, profilePic: "https://images.pexels.com/photos/220453/pexels-photo-220453.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" },
-  { rank: 4, name: "Tharindu", hours: 30, money: 3000, profilePic: "https://res.cloudinary.com/dlcm7h3zb/image/upload/v1749441414/lebron_ylttqb.jpg" },
-  { rank: 5, name: "A R Withana", hours: 10, money: 1000, profilePic: WithanaImage },
-  { rank: 6, name: "H H C H Ediriweera", hours: 8, money: 800, profilePic: "https://images.pexels.com/photos/415829/pexels-photo-415829.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" },
-  { rank: 7, name: "K A A Priyanga", hours: 7, money: 700, profilePic: "https://images.pexels.com/photos/91227/pexels-photo-91227.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" },
-  { rank: 8, name: "M R D Perera", hours: 5, money: 500, profilePic: "https://images.pexels.com/photos/1239291/pexels-photo-1239291.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" },
+  { rank: 1, name: "N K V M P Ariyadasa", hours: 113, money: 11300, profilePic: "https://res.cloudinary.com/drn4ip7ht/image/upload/v1749461584/2140104339_k00ycg.jpg" },
+  { rank: 2, name: "Akhila Withana", hours: 48, money: 4800, profilePic: "https://res.cloudinary.com/drn4ip7ht/image/upload/v1749460960/2140404621_kvit40.jpg" },
+  { rank: 3, name: "L.B.C. Premathilaka", hours: 47, money: 4700, profilePic: "https://res.cloudinary.com/drn4ip7ht/image/upload/v1749463396/premathilaka_vb5vcl.jpg" },
+  { rank: 4, name: "Ranjan Karunanayaka", hours: 33, money: 3300, profilePic: "https://res.cloudinary.com/drn4ip7ht/image/upload/v1749463090/Ranjab_mc8fy6.jpg" },
+  { rank: 5, name: "Krishantha Gunasekara", hours: 28, money: 2800, profilePic: "https://res.cloudinary.com/drn4ip7ht/image/upload/v1749462276/gunasekara_a1iuoq.jpg" },
+  { rank: 6, name: "H H T Hewaarachchi", hours: 26, money: 2600, profilePic: "https://res.cloudinary.com/drn4ip7ht/image/upload/v1749462276/heewaracchchi_o04kfk.jpg" },
+  { rank: 7, name: "K A Mahinda", hours: 22, money: 2200, profilePic: "https://res.cloudinary.com/drn4ip7ht/image/upload/v1749462276/mahinda_d8d8rb.jpg" },
+  { rank: 8, name: "Chandani Ediriweera", hours: 12, money: 1200, profilePic: "https://res.cloudinary.com/drn4ip7ht/image/upload/v1749462901/chandani_vezdt4.jpg" },
+  { rank: 9, name: "Ariya Wimalsiri", hours: 8, money: 800, profilePic: "https://res.cloudinary.com/drn4ip7ht/image/upload/v1749462962/wimalasiri_vw81yi.jpg" },
 ];
