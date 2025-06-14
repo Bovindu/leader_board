@@ -6,7 +6,7 @@ import { ChevronLeft, ChevronRight, Pause, Play } from 'lucide-react';
 const slideshowImages: SlideshowImage[] = [
   {
     id: 1,
-    url: "https://images.pexels.com/photos/3184639/pexels-photo-3184639.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    url: "https://res.cloudinary.com/dhyzmegrh/image/upload/v1749883700/Untitled_333_lp1zf0.png",
     title: "Innovation & Technology",
     description: "Staying ahead with cutting-edge skills and knowledge"
   },
