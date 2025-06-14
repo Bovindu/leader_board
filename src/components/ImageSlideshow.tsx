@@ -38,7 +38,7 @@ const slideshowImages: SlideshowImage[] = [
     id: 6,
     url: "https://res.cloudinary.com/dhyzmegrh/image/upload/v1749883084/asdf_d0vez2.png",
     title: "Learn and Lead",
-    description: ""
+    description: "       "
   },
 ];
 
