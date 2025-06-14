@@ -37,8 +37,8 @@ const slideshowImages: SlideshowImage[] = [
   {
     id: 6,
     url: "https://res.cloudinary.com/dhyzmegrh/image/upload/v1749882299/asdf_zj9q0g.png",
-    title: "Innovation & Technology",
-    description: "Staying ahead with cutting-edge skills and knowledge"
+    title: "Learn and Lead",
+    description: ""
   },
 ];
 
