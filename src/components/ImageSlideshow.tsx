@@ -30,9 +30,9 @@ const slideshowImages: SlideshowImage[] = [
   },
   {
     id: 5,
-    url: "https://res.cloudinary.com/dhyzmegrh/image/upload/v1749881471/Untitled_2222_l1f5zg.jpg",
-    title: "Innovation & Technology",
-    description: "Staying ahead with cutting-edge skills and knowledge"
+    url: "https://res.cloudinary.com/dhyzmegrh/image/upload/v1749883700/Untitled_333_lp1zf0.png",
+    title: "Training and Trainer Appreciation",
+    description: "   "
   },
   {
     id: 6,
