@@ -6,36 +6,12 @@ import { ChevronLeft, ChevronRight, Pause, Play } from 'lucide-react';
 const slideshowImages: SlideshowImage[] = [
   {
     id: 1,
-    url: "https://images.pexels.com/photos/3184291/pexels-photo-3184291.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-    title: "Online Learning Excellence",
-    description: "Empowering professionals through continuous education and skill development"
-  },
-  {
-    id: 2,
-    url: "https://images.pexels.com/photos/3184360/pexels-photo-3184360.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-    title: "Team Collaboration",
-    description: "Building stronger teams through shared learning experiences"
-  },
-  {
-    id: 3,
-    url: "https://images.pexels.com/photos/3184465/pexels-photo-3184465.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-    title: "Professional Growth",
-    description: "Advancing careers through structured learning programs"
-  },
-  {
-    id: 4,
     url: "https://images.pexels.com/photos/3184639/pexels-photo-3184639.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
     title: "Innovation & Technology",
     description: "Staying ahead with cutting-edge skills and knowledge"
   },
   {
-    id: 5,
-    url: "https://res.cloudinary.com/dhyzmegrh/image/upload/v1749883700/Untitled_333_lp1zf0.png",
-    title: "Training and Trainer Appreciation",
-    description: "   "
-  },
-  {
-    id: 6,
+    id: 2,
     url: "https://res.cloudinary.com/dhyzmegrh/image/upload/v1749883084/asdf_d0vez2.png",
     title: "Learn and Lead",
     description: "       "
