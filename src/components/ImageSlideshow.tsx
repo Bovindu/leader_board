@@ -34,6 +34,12 @@ const slideshowImages: SlideshowImage[] = [
     title: "Innovation & Technology",
     description: "Staying ahead with cutting-edge skills and knowledge"
   },
+  {
+    id: 6,
+    url: "https://res.cloudinary.com/dhyzmegrh/image/upload/v1749881471/Untitled_1111_jj7dmh.jpg",
+    title: "Innovation & Technology",
+    description: "Staying ahead with cutting-edge skills and knowledge"
+  },
 ];
 
 const ImageSlideshow: React.FC = () => {
