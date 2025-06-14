@@ -16,6 +16,12 @@ const slideshowImages: SlideshowImage[] = [
     title: "Learn and Lead",
     description: "       "
   },
+  {
+    id: 3,
+    url: "https://res.cloudinary.com/dhyzmegrh/image/upload/v1749884330/Untitled_5555_ci0tir.png",
+    title: "POSON CELBRATION | INVITE ALL TO WORK TOGETHER ",
+    description: "Staying ahead with cutting-edge skills and knowledge"
+  },
 ];
 
 const ImageSlideshow: React.FC = () => {
