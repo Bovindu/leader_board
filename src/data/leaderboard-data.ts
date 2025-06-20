@@ -7,7 +7,7 @@ export const leaderboardData = [
   { rank: 2, name: "Akhila Withana", hours: 48, money: 4800, profilePic: "https://res.cloudinary.com/drn4ip7ht/image/upload/v1749460960/2140404621_kvit40.jpg" },
   { rank: 3, name: "L.B.C. Premathilaka", hours: 47, money: 4700, profilePic: "https://res.cloudinary.com/drn4ip7ht/image/upload/v1749463396/premathilaka_vb5vcl.jpg" },
   { rank: 4, name: "Ranjan Karunanayaka", hours: 33, money: 3300, profilePic: "https://res.cloudinary.com/drn4ip7ht/image/upload/v1749463090/Ranjab_mc8fy6.jpg" },
-  { rank: 5, name: "Krishantha Gunasekara", hours: 28, money: 2800, profilePic: "https://res.cloudinary.com/drn4ip7ht/image/upload/v1749462276/gunasekara_a1iuoq.jpg" },
+  { rank: 5, name: "Krishantha Gunasekara", hours: 29, money: 2900, profilePic: "https://res.cloudinary.com/drn4ip7ht/image/upload/v1749462276/gunasekara_a1iuoq.jpg" },
   { rank: 6, name: "H H T Hewaarachchi", hours: 26, money: 2600, profilePic: "https://res.cloudinary.com/drn4ip7ht/image/upload/v1749462276/heewaracchchi_o04kfk.jpg" },
   { rank: 7, name: "K A Mahinda", hours: 22, money: 2200, profilePic: "https://res.cloudinary.com/drn4ip7ht/image/upload/v1749462276/mahinda_d8d8rb.jpg" },
   { rank: 8, name: "Chandani Ediriweera", hours: 12, money: 1200, profilePic: "https://res.cloudinary.com/drn4ip7ht/image/upload/v1749462901/chandani_vezdt4.jpg" },
