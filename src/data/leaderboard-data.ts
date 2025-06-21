@@ -9,5 +9,4 @@ export const leaderboardData = [
   { rank: 4, name: "Ranjan Karunanayaka", hours: 33, money: 3300, profilePic: "https://res.cloudinary.com/drn4ip7ht/image/upload/v1749463090/Ranjab_mc8fy6.jpg" },
   { rank: 5, name: "Krishantha Gunasekara", hours: 29, money: 2900, profilePic: "https://res.cloudinary.com/drn4ip7ht/image/upload/v1749462276/gunasekara_a1iuoq.jpg" },
   { rank: 6, name: "H H T Hewaarachchi", hours: 26, money: 2600, profilePic: "https://res.cloudinary.com/drn4ip7ht/image/upload/v1749462276/heewaracchchi_o04kfk.jpg" },
-  { rank: 7, name: "K A Mahinda", hours: 22, money: 2200, profilePic: "https://res.cloudinary.com/drn4ip7ht/image/upload/v1749462276/mahinda_d8d8rb.jpg" },
 ];
