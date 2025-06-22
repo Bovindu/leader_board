@@ -36,7 +36,7 @@ const PoolProgress: React.FC = () => {
 
         <div className="flex justify-between mt-2 text-sm">
           <span className="text-gray-600">
-            Awarded: <span className={`font-semibold ${progressPercentage >= 100 ? 'text-red-600' : 'text-blue-600'}`}>
+            Awarded: <span className={`font-semibold ${progressPercentage >= 100 ? 'text-red-600' : 'text-green-600'}`}>
               Rs. {totalPrizeAwarded.toLocaleString()}
             </span>
             {totalPrizeAwarded > PRICE_CONFIG.POOL_PRICE && (
