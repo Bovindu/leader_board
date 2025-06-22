@@ -10,17 +10,6 @@ const Footer: React.FC = () => {
               &copy; {new Date().getFullYear()} Coursera Learning Leaderboard. All rights reserved.
             </p>
           </div>
-          <div className="flex space-x-4">
-            <a href="/admin" className="text-gray-300 hover:text-white transition-colors duration-200 text-sm">
-              Log in
-            </a>
-            <a href="#" className="text-gray-300 hover:text-white transition-colors duration-200 text-sm">
-              Privacy Policy
-            </a>
-            <a href="#" className="text-gray-300 hover:text-white transition-colors duration-200 text-sm">
-              Contact Us
-            </a>
-          </div>
         </div>
       </div>
     </footer>
