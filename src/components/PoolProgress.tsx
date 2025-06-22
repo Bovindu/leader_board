@@ -40,7 +40,7 @@ const PoolProgress: React.FC = () => {
               Rs. {totalPrizeAwarded.toLocaleString()}
             </span>
             {totalPrizeAwarded > PRICE_CONFIG.POOL_PRICE && (
-              <span className="ml-2 text-red-500 font-bold">(Exceeds Pool!)</span>
+              <span className="ml-2 text-red-500 font-bold">(Reach Pool limit!)</span>
             )}
           </span>
           <span className="text-gray-600">
