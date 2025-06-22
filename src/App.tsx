@@ -2,7 +2,6 @@ import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Header from './components/Header';
 import Leaderboard from './components/Leaderboard';
-import AdminPage from './components/AdminPage';
 import Footer from './components/Footer';
 import ImageSlideshow from './components/ImageSlideshow';
 import { leaderboardData } from './data/leaderboard-data';
