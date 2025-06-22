@@ -11,7 +11,6 @@ function App() {
     <Router>
       <div className="flex flex-col min-h-screen">
         <Routes>
-          <Route path="/admin" element={<AdminPage />} />
           <Route path="/" element={
             <>
               <Header />
