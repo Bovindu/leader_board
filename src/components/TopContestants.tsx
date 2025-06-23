@@ -51,15 +51,15 @@ const TopContestants: React.FC<TopContestantsProps> = ({ contestants }) => {
               key={contestant.id}
               className={`relative flex flex-col items-center p-4 md:p-6 rounded-lg shadow-md transition-transform duration-300 hover:shadow-lg ${
                 isFirst 
-                ? "bg-blue-100 md:h-80 w-full md:w-64 z-10 border-t-4 border-blue-500 hover:-translate-y-2" 
-                : "bg-white md:h-72 w-full md:w-56 hover:-translate-y-1"
+                ? "bg-blue-100 md:h-96 w-full md:w-64 z-10 border-t-4 border-blue-500 hover:-translate-y-2" 
+                : "bg-white md:h-80 w-full md:w-56 hover:-translate-y-1"
               } ${getAnimationClass(index)}`}
             >
               <div className="absolute -top-3 left-1/2 transform -translate-x-1/2 bg-white rounded-full p-2 shadow-md animate-scale-in">
                 <Trophy className={`${trophyColors[contestant.rank as keyof typeof trophyColors]}`} size={getTrophySize(contestant.rank)} />
               </div>
               
-              <div className="mt-6 mb-3">
+              <div className="mt-6 mb-4 flex-shrink-0">
                 <div className={`relative ${isFirst ? "h-28 w-28" : "h-24 w-24"} rounded-full overflow-hidden border-4 ${
                   contestant.rank === 1 ? "border-yellow-400" : 
                   contestant.rank === 2 ? "border-gray-400" : "border-amber-700"
@@ -72,14 +72,24 @@ const TopContestants: React.FC<TopContestantsProps> = ({ contestants }) => {
                 </div>
               </div>
               
-              <h3 className={`font-bold text-center mt-2 ${isFirst ? "text-xl" : "text-lg"}`}>{contestant.name}</h3>
-              
-              <div className="flex items-center mt-2">
-                <span className={`${isFirst ? "text-3xl" : "text-2xl"} font-bold text-blue-600`}>Rs. {prize.toLocaleString()}</span>
-              </div>
-              <div className="flex items-center mt-2">
-                <span className={`${isFirst ? "text-3xl" : "text-2xl"} font-bold text-blue-600`}>{contestant.hours}</span>
-                <span className="ml-1 text-gray-600">hours</span>
+              <div className="flex-grow flex flex-col justify-center items-center text-center px-2">
+                <h3 className={`font-bold text-center mb-3 ${isFirst ? "text-lg" : "text-base"} leading-tight`}>
+                  {contestant.name}
+                </h3>
+                
+                <div className="flex flex-col items-center space-y-2">
+                  <div className="flex items-center">
+                    <span className={`${isFirst ? "text-2xl" : "text-xl"} font-bold text-blue-600`}>
+                      Rs. {prize.toLocaleString()}
+                    </span>
+                  </div>
+                  <div className="flex items-center">
+                    <span className={`${isFirst ? "text-2xl" : "text-xl"} font-bold text-blue-600`}>
+                      {contestant.hours}
+                    </span>
+                    <span className="ml-1 text-gray-600 text-sm">hours</span>
+                  </div>
+                </div>
               </div>
               
               <div className={`absolute top-4 right-4 ${
