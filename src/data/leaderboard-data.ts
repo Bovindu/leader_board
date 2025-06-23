@@ -3,7 +3,7 @@ import fowzinImage from '../img/kobe.png';
 import WithanaImage from '../img/ad.jpg';
 
 export const leaderboardData = [
-  { rank: 1, name: "Uresh Kadana Ararachi", hours: 0, money: 0, profilePic: "https://res.cloudinary.com/dlcm7h3zb/image/upload/v1750651080/pngwing.com_ed8vhi.png" },
+  { rank: 1, name: "Uresh Kadana Ararachchi", hours: 0, money: 0, profilePic: "https://res.cloudinary.com/dlcm7h3zb/image/upload/v1750651080/pngwing.com_ed8vhi.png" },
   { rank: 2, name: "Haritha Prabath", hours: 0, money: 0, profilePic: "https://res.cloudinary.com/dlcm7h3zb/image/upload/v1750651080/pngwing.com_ed8vhi.png" },
   { rank: 3, name: "Buddhika Chathuranga", hours: 0, money: 0, profilePic: "https://res.cloudinary.com/dlcm7h3zb/image/upload/v1750651080/pngwing.com_ed8vhi.png" },
   { rank: 4, name: "Chathura Jayawardena", hours: 0, money: 0, profilePic: "https://res.cloudinary.com/dlcm7h3zb/image/upload/v1750651080/pngwing.com_ed8vhi.png" },
