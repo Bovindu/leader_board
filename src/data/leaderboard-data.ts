@@ -10,4 +10,7 @@ export const leaderboardData = [
   { rank: 5, name: "Dinuka Sampath", hours: 0, money: 0, profilePic: "https://res.cloudinary.com/dlcm7h3zb/image/upload/v1750651080/pngwing.com_ed8vhi.png" },
   { rank: 6, name: "Thejan Perera", hours: 0, money: 0, profilePic: "https://res.cloudinary.com/dlcm7h3zb/image/upload/v1750651080/pngwing.com_ed8vhi.png" },
   { rank: 7, name: "Oshara Weragala", hours: 0, money: 0, profilePic: "https://res.cloudinary.com/dlcm7h3zb/image/upload/v1750651080/pngwing.com_ed8vhi.png" },
+  { rank: 8, name: "Indika Premarathna", hours: 0, money: 0, profilePic: "https://res.cloudinary.com/dlcm7h3zb/image/upload/v1750651080/pngwing.com_ed8vhi.png" },
+  { rank: 9, name: "Noel Nishantha", hours: 0, money: 0, profilePic: "https://res.cloudinary.com/dlcm7h3zb/image/upload/v1750651080/pngwing.com_ed8vhi.png" },
+  { rank: 10, name: "Tharanga Kumara", hours: 0, money: 0, profilePic: "https://res.cloudinary.com/dlcm7h3zb/image/upload/v1750651080/pngwing.com_ed8vhi.png" },
 ];
