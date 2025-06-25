@@ -35,7 +35,7 @@ const Leaderboard: React.FC<LeaderboardProps> = ({ data }) => {
                 </li>
                 <li className="flex items-start">
                   <span className="text-yellow-600 mr-2">•</span>
-                  <span>If a member reaches <strong>6,000 earning hours</strong>, the Prize per Hour will further reduce to <strong>LKR 20</strong>.</span>
+                  <span>If any member reaches <strong>6,000 earning hours</strong>, the Prize per Hour will further reduce to <strong>LKR 20</strong>.</span>
                 </li>
               </ul>
             </div>
