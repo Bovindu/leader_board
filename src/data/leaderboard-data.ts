@@ -8,8 +8,9 @@ export const leaderboardData = [
   { rank: 3, name: "Haritha Prabath", hours: 0, money: 0, profilePic: "https://res.cloudinary.com/dlcm7h3zb/image/upload/v1750695088/Haritha_h6wrcw.jpg" },
   { rank: 4, name: "Noel Nishantha", hours: 0, money: 0, profilePic: "https://res.cloudinary.com/dlcm7h3zb/image/upload/v1750694503/noel_iu8vkp.jpg" },
   { rank: 5, name: "Oshara Weragala", hours: 0, money: 0, profilePic: "https://res.cloudinary.com/dlcm7h3zb/image/upload/v1750694418/oshara_cqtluv.jpg" },
-  { rank: 6, name: "Uresh Kadana Ararachchi", hours: 0, money: 0, profilePic: "https://res.cloudinary.com/dlcm7h3zb/image/upload/v1750695361/5622_Uresh_Pic_nhpwsq.jpg" },
+  { rank: 6, name: "Uresh Kadana Arachchi", hours: 0, money: 0, profilePic: "https://res.cloudinary.com/dlcm7h3zb/image/upload/v1750695361/5622_Uresh_Pic_nhpwsq.jpg" },
   { rank: 7, name: "Chathura Jayawardena", hours: 0, money: 0, profilePic: "https://res.cloudinary.com/dlcm7h3zb/image/upload/v1750695818/chathura_wvacee.jpg" },
   { rank: 8, name: "Tharanga Kumara", hours: 0, money: 0, profilePic: "https://res.cloudinary.com/dlcm7h3zb/image/upload/v1750695844/tharanga_m5aacn.jpg" },
   { rank: 9, name: "Buddhika Chathuranga", hours: 0, money: 0, profilePic: "https://res.cloudinary.com/dlcm7h3zb/image/upload/v1750696164/Buddika_zfwiuk.jpg" },
+  { rank: 10, name: "Dinuka Sampath", hours: 0, money: 0, profilePic: "https://res.cloudinary.com/dlcm7h3zb/image/upload/v1750696177/Dinuka_gxnugl.jpg" },
 ];
