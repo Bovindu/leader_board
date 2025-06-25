@@ -1,5 +1,5 @@
 import React from 'react';
-import { GraduationCap } from 'lucide-react';
+import { GraduationCap, Info } from 'lucide-react';
 import { PRICE_CONFIG } from '../config/constants';
 import { leaderboardData } from '../data/leaderboard-data';
 import { DATE_CONFIG } from '../config/date_up';
@@ -36,6 +36,26 @@ const Header: React.FC = () => {
           <div className="bg-white/10 backdrop-blur-sm rounded-lg px-4 py-2">
             <span className="text-blue-100">Prize per Hour:</span>
             <span className="ml-2 font-bold text-white">Rs. {PRICE_CONFIG.PRICE_PER_HOUR.toLocaleString()}</span>
+          </div>
+        </div>
+
+        {/* Conditions Apply Statement */}
+        <div className="mt-6 bg-white/5 backdrop-blur-sm rounded-lg p-4 border border-white/20">
+          <div className="flex items-start gap-2">
+            <Info size={20} className="text-yellow-300 mt-0.5 flex-shrink-0" />
+            <div>
+              <h3 className="text-yellow-300 font-semibold mb-2">Special Conditions Apply:</h3>
+              <ul className="text-blue-100 text-sm space-y-1">
+                <li className="flex items-start">
+                  <span className="text-yellow-300 mr-2">•</span>
+                  <span>If any member reaches <strong>5,000 earning hours</strong>, the Prize per Hour will be reduced to <strong>LKR 50</strong>.</span>
+                </li>
+                <li className="flex items-start">
+                  <span className="text-yellow-300 mr-2">•</span>
+                  <span>If a member reaches <strong>6,000 earning hours</strong>, the Prize per Hour will further reduce to <strong>LKR 20 per hour</strong>.</span>
+                </li>
+              </ul>
+            </div>
           </div>
         </div>
       </div>
