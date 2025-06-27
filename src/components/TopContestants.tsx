@@ -80,7 +80,7 @@ const TopContestants: React.FC<TopContestantsProps> = ({ contestants }) => {
                 <div className="flex flex-col items-center space-y-2">
                   <div className="flex items-center">
                     <span className={`${isFirst ? "text-2xl" : "text-xl"} font-bold text-blue-600`}>
-                      Rs. {prize.toLocaleString()}
+                      Rs. {(contestant.money).toLocaleString()}
                     </span>
                   </div>
                   <div className="flex items-center">
