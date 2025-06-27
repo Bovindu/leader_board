@@ -6,21 +6,9 @@ import { ChevronLeft, ChevronRight, Pause, Play } from 'lucide-react';
 const slideshowImages: SlideshowImage[] = [
   {
     id: 1,
-    url: "https://res.cloudinary.com/dhyzmegrh/image/upload/v1749883700/Untitled_333_lp1zf0.png",
-    title: "Innovation & Technology",
-    description: "Staying ahead with cutting-edge skills and knowledge"
-  },
-  {
-    id: 2,
-    url: "https://res.cloudinary.com/dhyzmegrh/image/upload/v1749883084/asdf_d0vez2.png",
-    title: "Learn and Lead",
-    description: "Learn and Lead"
-  },
-  {
-    id: 3,
-    url: "https://res.cloudinary.com/dhyzmegrh/image/upload/v1749884330/Untitled_5555_ci0tir.png",
-    title: "POSON CELBRATION | INVITE ALL TO WORK TOGETHER ",
-    description: "Staying ahead with cutting-edge skills and knowledge"
+    url: "https://res.cloudinary.com/drn4ip7ht/image/upload/v1751023408/AA_auihyc.gif",
+    title: "",
+    description: ""
   },
 ];
 
