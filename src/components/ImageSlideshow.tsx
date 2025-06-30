@@ -6,8 +6,14 @@ import { ChevronLeft, ChevronRight, Pause, Play } from 'lucide-react';
 const slideshowImages: SlideshowImage[] = [
   {
     id: 1,
+    url: "https://res.cloudinary.com/drn4ip7ht/image/upload/v1751260258/Picture2_rjfbyr.gif",
+    title: "recap mould shop",
+    description: ""
+  },
+  {
+    id: 2,
     url: "https://res.cloudinary.com/drn4ip7ht/image/upload/v1751260258/Picture1_mosmkj.gif",
-    title: "safety training",
+    title: "Training",
     description: ""
   },
 ];
