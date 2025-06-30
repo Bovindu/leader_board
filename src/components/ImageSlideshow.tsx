@@ -6,8 +6,8 @@ import { ChevronLeft, ChevronRight, Pause, Play } from 'lucide-react';
 const slideshowImages: SlideshowImage[] = [
   {
     id: 1,
-    url: "https://res.cloudinary.com/drn4ip7ht/image/upload/v1751023408/AA_auihyc.gif",
-    title: "",
+    url: "https://res.cloudinary.com/drn4ip7ht/image/upload/v1751260258/Picture1_mosmkj.gif",
+    title: "safety training",
     description: ""
   },
 ];
