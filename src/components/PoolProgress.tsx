@@ -4,7 +4,7 @@ import { PRICE_CONFIG } from '../config/constants';
 
 const PoolProgress: React.FC = () => {
   const totalHours = leaderboardData.reduce((sum, contestant) => sum + contestant.hours, 0);
-  const totalPrizeAwarded = totalHours * PRICE_CONFIG.PRICE_PER_HOUR;
+  const totalPrizeAwarded = leaderboardData.reduce((sum, contestant) => sum + contestant.money, 0);
   const remainingPool = Math.max(0, PRICE_CONFIG.POOL_PRICE - totalPrizeAwarded); // Ensure it doesn't go below 0
   const progressPercentage = Math.min(100, (totalPrizeAwarded / PRICE_CONFIG.POOL_PRICE) * 100); // Cap at 100%
   const remainingPercentage = Math.max(0, 100 - progressPercentage); // Remaining percentage
