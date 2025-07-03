@@ -10,7 +10,7 @@ export const leaderboardData = [
   { rank: 5, name: "Oshara Weragala", hours: 54, money: 1080, profilePic: "https://res.cloudinary.com/dlcm7h3zb/image/upload/v1750694418/oshara_cqtluv.jpg" },
   { rank: 6, name: "Tharanga Kumara", hours: 16, money: 320, profilePic: "https://res.cloudinary.com/dlcm7h3zb/image/upload/v1750695844/tharanga_m5aacn.jpg" },
   { rank: 7, name: "Dinuka Sampath", hours: 15, money: 300, profilePic: "https://res.cloudinary.com/dlcm7h3zb/image/upload/v1750696177/Dinuka_gxnugl.jpg" },
-  { rank: 8, name: "Buddhika Chathuranga", hours: 7, money: 140, profilePic: "https://res.cloudinary.com/dlcm7h3zb/image/upload/v1750696164/Buddika_zfwiuk.jpg" },
+  { rank: 8, name: "Buddhika Chathuranga", hours: 10, money: 200, profilePic: "https://res.cloudinary.com/dlcm7h3zb/image/upload/v1750696164/Buddika_zfwiuk.jpg" },
   { rank: 9, name: "Indika Premarathna", hours: 7, money: 620, profilePic: "https://res.cloudinary.com/dlcm7h3zb/image/upload/v1750694053/5634_Indika_mjcdx1.jpg" },
   { rank: 10, name: "Uresh Kadana Arachchi", hours: 0, money: 0, profilePic: "https://res.cloudinary.com/dlcm7h3zb/image/upload/v1750695361/5622_Uresh_Pic_nhpwsq.jpg" },
 ];
