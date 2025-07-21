@@ -1,5 +1,5 @@
 export const DATE_CONFIG = {
             
-            LATEST_UPDATE: '2025/07/18'
+            LATEST_UPDATE: '2025/07/21'
             } as const; 
             
