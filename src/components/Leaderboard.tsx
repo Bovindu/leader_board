@@ -31,11 +31,11 @@ const Leaderboard: React.FC<LeaderboardProps> = ({ data }) => {
               <ul className="text-gray-700 text-sm space-y-1">
                 <li className="flex items-start">
                   <span className="text-yellow-600 mr-2">•</span>
-                  <span>If a member reaches <strong>Rs.5,000 </strong>, the Prize per Hour of the learner will be increased to <strong>LKR 50</strong>.</span>
+                  <span>If a member reaches <strong>Rs.5,000 </strong>, the Prize per Hour for the learner will be increased to <strong>LKR 50</strong>.</span>
                 </li>
                 <li className="flex items-start">
                   <span className="text-yellow-600 mr-2">•</span>
-                  <span>If a member reaches <strong>Rs.10,000 </strong>, the Prize per Hour of the learner will further increased to <strong>LKR 100</strong>.</span>
+                  <span>If a member reaches <strong>Rs.10,000 </strong>, the Prize per Hour for the learner will be further increased to <strong>LKR 100</strong>.</span>
                 </li>
               </ul>
             </div>
