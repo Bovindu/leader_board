@@ -13,4 +13,5 @@ export const leaderboardData = [
   { rank: 8, name: "Buddhika Chathuranga", hours: 59, money: 1180, profilePic: "https://res.cloudinary.com/dlcm7h3zb/image/upload/v1750696164/Buddika_zfwiuk.jpg" },
   { rank: 9, name: "Indika Premarathna", hours: 37, money: 1220, profilePic: "https://res.cloudinary.com/dlcm7h3zb/image/upload/v1750694053/5634_Indika_mjcdx1.jpg" },
   { rank: 10, name: "Tharanga Kumara", hours: 36, money: 720, profilePic: "https://res.cloudinary.com/dlcm7h3zb/image/upload/v1750695844/tharanga_m5aacn.jpg" },
+  { rank: 11, name: "Duminda Kumara", hours: 0, money: 0, profilePic: "https://res.cloudinary.com/drn4ip7ht/image/upload/v1753412013/Duminda_Kumara_uk9a12.jpg" },
 ];
