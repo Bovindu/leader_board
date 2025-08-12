@@ -10,7 +10,7 @@ export const leaderboardData = [
   { rank: 5, name: "Pasindu Pubuditha Thennakoon", hours: 22, money: 440, profilePic: "https://res.cloudinary.com/drn4ip7ht/image/upload/v1753412008/5588_E_Pasindu_Pubuditha_kiylzv.jpg" },
   { rank: 6, name: "Darshana Perera", hours: 3, money: 60, profilePic: "https://res.cloudinary.com/drn4ip7ht/image/upload/v1753412011/Darshana_Perera_zz5gij.jpg" },
   { rank: 7, name: "Chaminda Kumara Senevirathne", hours: 0, money: 0, profilePic: "https://res.cloudinary.com/drn4ip7ht/image/upload/v1753412010/Chaminda_Kumara_Senevirathne_osgzlb.jpg" },
-  { rank: 8, name: "Darshana Perera", hours: 0, money: 0, profilePic: "https://res.cloudinary.com/drn4ip7ht/image/upload/v1753412011/Darshana_Perera_zz5gij.jpg" },
-  { rank: 9, name: "Ishara Liyanaarachchi", hours: 0, money: 0, profilePic: "https://res.cloudinary.com/drn4ip7ht/image/upload/v1753412008/Ishara_Liyanaarachchi_ludvqh.jpg" },
-  { rank: 10, name: "Wasana Madhumali Gunarathna", hours: 0, money: 0, profilePic: "https://res.cloudinary.com/drn4ip7ht/image/upload/v1753412005/5583_A_A_Wasana_Madumali_Gunarathna_ynj9lf.jpg" },
+  { rank: 8, name: "Ishara Liyanaarachchi", hours: 0, money: 0, profilePic: "https://res.cloudinary.com/drn4ip7ht/image/upload/v1753412008/Ishara_Liyanaarachchi_ludvqh.jpg" },
+  { rank: 9, name: "Wasana Madhumali Gunarathna", hours: 0, money: 0, profilePic: "https://res.cloudinary.com/drn4ip7ht/image/upload/v1753412005/5583_A_A_Wasana_Madumali_Gunarathna_ynj9lf.jpg" },
+  { rank: 10, name: "Duminda Kumara", hours: 0, money: 0, profilePic: "https://res.cloudinary.com/drn4ip7ht/image/upload/v1753412013/Duminda_Kumara_uk9a12.jpg" },
 ];
